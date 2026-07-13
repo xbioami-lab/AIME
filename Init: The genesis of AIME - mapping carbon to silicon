@@ -1,0 +1,38 @@
+<div align="center">
+
+AIME
+AI-Molecular/Biological Infrastructure Engine
+The inaugural open-source infrastructure project by xbioami-lab
+
+English | 简体中文
+
+</div>
+🔹 The Genesis Line
+Before building massive systems, we first complete the initial leap from carbon-based life to silicon-based computation with a single line of code:
+import torch; digital_dna = torch.tensor([{'A':1, 'T':2, 'C':3, 'G':4}[base] for base in "ATCG"], dtype=torch.float32)
+This is more than just syntax. It is the exact moment 4 billion years of evolutionary logic are transformed into a differentiable tensor entity capable of calculus on a GPU.
+🔹 Why AIME?
+The intersection of biology and digital intelligence is exploding, yet the underlying infrastructure is fractured.
+
+Algorithm engineers struggle with the "dirtiness" and heterogeneity of biological data.
+Biologists lack standardized pipelines to transform wet-lab data into AI-readable tensors.
+There is no unified "language of life" tokenizer, making it nearly impossible to align multi-omics (genomics, proteomics, metabolomics) within the same latent space.
+AIME is being built to fill this void. We aren't here to publish a benchmark-chasing paper. We are here so that in the future, when any top-tier lab wants to tackle bio-digital intelligence, they can simply pip install aime and instantly access the cleanest data, fastest tensor transformations, and most standard interfaces.
+🔹 Architecture Blueprint
+AIME will be constructed around the following foundational pillars (currently at V0.0.1, iterating rapidly):
+
+aime.tokenizers: Tokenizers for the language of life. Moving beyond text to unified tokenization for sequences, 3D structures (coordinates), and graph networks.
+aime.data: The sanitization pipelines for multi-omics. Ingesting messy FASTA, PDB, and H5AD formats, outputting pristine PyTorch Datasets.
+aime.models: Lightweight, interpretable wrapper interfaces for foundational biological models.
+aime.utils: High-performance parallelization utilities for high-throughput data processing.
+🔹 Roadmap
+ Phase 0: Establish project vision, write the Genesis Line.
+ Phase 1: Implement highly optimized tokenizers for DNA/Protein sequences in aime.tokenizers.
+ Phase 2: Build a robust, user-friendly PDB (Protein Data Bank) to Graph Tensor converter.
+🔹 xbioami-lab
+AIME is incubated within xbioami-lab. We believe that the future of biology lies not just in the pipettes of wet labs, but in the tensor flows of compute clusters. We are exploring the boundaries of X (the cross-disciplinary unknown).
+
+One person can move fast, but infrastructure must be forged by a community.
+If you are obsessed with the code of life merged with silicon, if you are tired of superficial applications and crave rewriting the rules from the ground up—
+
+👉 Whether you are a C++/CUDA performance guru, a bioinformatics data architect, or simply a fellow lone pioneer—leave your mark in our Issues or Discussions. We don't need a perfect resume; we only need you to resonate with that single line of code.
